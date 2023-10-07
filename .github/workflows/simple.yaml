@@ -22,25 +22,3 @@ jobs:
           import platform
          
           shell: python
-  run-windows-commands:
-    runs-on: windows-latest
-    steps:
-      
-      - name: Directory
-        run: Get-Location
-      - name: Directory bash
-        run: pwd
-        shell: bash
-          
-
-      
-  run-windows-commands:
-    runs-on: windows-latest
-    steps:
-      
-      - name: Directory
-        run: Get-Location
-      - name: Directory bash
-        run: pwd
-        shell: bash
-      
